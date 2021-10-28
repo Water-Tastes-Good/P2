@@ -1,0 +1,93 @@
+h1{
+    font-size: 300%;
+    color: rgb(48, 45, 45);
+
+}
+
+@font-face {
+    font-family: "VV";
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+body{
+    font-family: VV;
+    font-size: 120%;
+    background-image: url(pixel-art-gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+
+
+    text-shadow: 4px -1px 4px green;
+    box-shadow: revert;
+}
+
+p, li{
+    margin-bottom: 1%; 
+    padding: 1px;
+}
+
+li{
+    text-align: center;
+    margin: auto;
+    list-style-position: inside;
+
+    color: rgb(48, 45, 45);
+    font-size: 100%;
+}
+
+tr:nth-child(even) {background-color: #ffffff00;}
+tr:nth-child(odd) {background-color: #ffffff00;}
+tr:hover {
+    background-color: rgba(72, 165, 32, 0.596);
+    color: rgb(48, 45, 45);
+}
+
+
+th {
+    color: rgb(48, 45, 45);
+    background-color: rgb(44, 175, 72);
+    font-size: 125%;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 105%;
+    width: max-content;
+
+    box-shadow:4px -1px 4px rgb(58, 184, 64);
+    background-color: rgba(35, 161, 92, 0.52);
+
+    border-style: solid;
+    border-color: rgb(58, 184, 64);
+
+    box-shadow: sp;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 1%;
+    text-align: center;
+}
+ 
+
+form {
+    box-shadow:-1px -1px 20px rgb(58, 184, 64);
+    background-color: rgba(35, 161, 92, 0.52);
+
+    border-style: solid;
+    display: block;
+    outline: none;
+
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: fit-content;
+}
+
+h2 {
+    color: rgb(48, 45, 45);
+
+}
