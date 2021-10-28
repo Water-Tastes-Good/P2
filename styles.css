@@ -2,7 +2,7 @@ h1{
     font-size: 300%;
     color: rgb(48, 45, 45);
 
-}
+} 
 
 @font-face {
     font-family: "VV";
@@ -87,6 +87,13 @@ form {
     width: fit-content;
 }
 
+div.fieldset {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.submit{
+    margin-bottom: 3%;
+}
 h2 {
     color: rgb(48, 45, 45);
 
